@@ -1,6 +1,6 @@
 package com.erudite.cms.response;
 
-import com.erudite.cms.CmsPage;
+import com.erudite.cms.model.CmsPage;
 import com.erudite.framework.model.response.ResponseResult;
 import com.erudite.framework.model.response.ResultCode;
 
