@@ -2,8 +2,8 @@ server:
   port: 31001
 spring:
   application:
-    name: xc-service-manage-cms
-#  data:
-#    mongodb:
-#      uri:  mongodb://root:123@localhost:27017
-#      database: xc_cms
+    name: erudite-service-cms
+  data:
+    mongodb:
+      uri:  mongodb://root:123@localhost:27017
+      database: xc_cms
