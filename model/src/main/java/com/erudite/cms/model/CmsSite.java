@@ -1,7 +1,9 @@
 package com.erudite.cms.model;
 
 import com.erudite.framework.model.BaseEntity;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "cms_site")
 public class CmsSite extends BaseEntity {
 
     private String siteName;//站点名称

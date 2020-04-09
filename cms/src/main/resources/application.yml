@@ -5,5 +5,5 @@ spring:
     name: erudite-service-cms
   data:
     mongodb:
-      uri:  mongodb://root:123@localhost:27017
-      database: xc_cms
+      uri:  mongodb://root:root@localhost:27017
+      database: erudite_cms
